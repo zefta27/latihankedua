@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="palembang.gelumbang.zefta.uwalq.latihankedua.MainActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:text="Hello World!"
+    android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"/>
+
+    <EditText
+        android:layout_toRightOf="@+id/tv_result"
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Masukkan Text Anda"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <Button
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_text"
+        android:gravity="center_horizontal|center|center_vertical"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="#fff"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btn_pindahactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pindah Activity"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="454dp"
+
+     />
+    </RelativeLayout>
+</LinearLayout>
